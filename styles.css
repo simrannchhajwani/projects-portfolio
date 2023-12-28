@@ -1,0 +1,29 @@
+*{
+    color:white;
+    background-color:black;
+}
+
+.grid-container {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr); 
+    grid-gap: 70px; 
+  }
+  
+  .grid-item {
+    display: flex; 
+    flex-direction: column; 
+    align-items: center; 
+  }
+  
+  .grid-item img {
+    width: 400px; 
+    height: auto; 
+    margin-bottom: 25px;
+  }
+
+  p{
+    font-size:15px;
+  }
+
+
+  
